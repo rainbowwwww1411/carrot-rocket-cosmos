@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,15 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				space: {
+					dark: "#1A1F2C",
+					black: "#0A0E17",
+					purple: "#4F3B78",
+					blue: "#33C3F0",
+					carrot: "#FF6B35",
+					carrotHover: "#FF8B55",
+					stars: "#F0F0FF"
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -84,11 +94,38 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				'twinkle': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.5' },
+				},
+				'rocket-launch': {
+					'0%': { transform: 'translateY(0) rotate(0deg)' },
+					'10%': { transform: 'translateY(-5px) rotate(2deg)' },
+					'20%': { transform: 'translateY(-30px) rotate(-2deg)' },
+					'30%': { transform: 'translateY(-60px) rotate(2deg)' },
+					'40%': { transform: 'translateY(-100px) rotate(-2deg)' },
+					'100%': { transform: 'translateY(-500px) rotate(0deg)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'twinkle': 'twinkle 4s ease-in-out infinite',
+				'rocket-launch': 'rocket-launch 2s ease-out forwards'
+			},
+			fontFamily: {
+				space: ['Space Grotesk', 'sans-serif'],
+				futuristic: ['Orbitron', 'sans-serif'],
+			},
+			backgroundImage: {
+				'stars': "url('/stars.png')",
+				'space-gradient': 'linear-gradient(180deg, #1A1F2C 0%, #0A0E17 100%)'
 			}
 		}
 	},
