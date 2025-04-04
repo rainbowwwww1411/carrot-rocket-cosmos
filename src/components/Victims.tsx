@@ -35,7 +35,7 @@ const Victims: React.FC = () => {
     },
     {
       name: "Николас Кейдж",
-      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
+      image: "/lovable-uploads/4cffc9c4-4ca9-4c0a-970a-80829e5721d0.png",
       description: "Не пережил испытания космической моркови. Теперь его душа блуждает между звёзд."
     },
     {
