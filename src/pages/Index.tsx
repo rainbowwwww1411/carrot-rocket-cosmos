@@ -4,6 +4,9 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Founders from '@/components/Founders';
+import Slaves from '@/components/Slaves';
+import Victims from '@/components/Victims';
+import EmployeeOfMonth from '@/components/EmployeeOfMonth';
 import StockChart from '@/components/StockChart';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
@@ -15,6 +18,9 @@ const Index: React.FC = () => {
       <Hero />
       <About />
       <Founders />
+      <Slaves />
+      <Victims />
+      <EmployeeOfMonth />
       <StockChart />
       <CTA />
       <Footer />
