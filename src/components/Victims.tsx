@@ -34,9 +34,14 @@ const Victims: React.FC = () => {
       description: "Первая жертва тестирования ракет-морковок. Был отправлен в космос без возможности вернуться."
     },
     {
-      name: "Мелстрой",
-      image: "/lovable-uploads/5e1a7a98-66bd-45c9-a3f3-c0a1cb34f083.png",
+      name: "Николас Кейдж",
+      image: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5",
       description: "Не пережил испытания космической моркови. Теперь его душа блуждает между звёзд."
+    },
+    {
+      name: "Райан Гослинг",
+      image: "/lovable-uploads/df7b1820-09f6-4011-980b-3c07f530ed36.png",
+      description: "Стал жертвой экспериментальной морковной технологии. Теперь вечно дрейфует в открытом космосе."
     }
   ];
 
@@ -58,7 +63,7 @@ const Victims: React.FC = () => {
         >
           <CarouselContent>
             {victims.map((victim, index) => (
-              <CarouselItem key={index} className="md:basis-1/2">
+              <CarouselItem key={index} className="md:basis-1/3 lg:basis-1/3">
                 <div className="p-1">
                   <VictimCard {...victim} />
                 </div>
