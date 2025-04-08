@@ -46,6 +46,12 @@ const Founders: React.FC = () => {
       position: "Финансовый Директор",
       image: "/lovable-uploads/3ace9495-bab2-4d75-9ca5-a763624a1bad.png",
       description: "Управляет финансами компании и привлекает инвесторов. Увеличил капитализацию SpaceCarrot в 10 раз за два года."
+    },
+    {
+      name: "Гипноденсер",
+      position: "Креативный Директор",
+      image: "/lovable-uploads/151f98d7-2cd1-48dd-bc38-00219b31f3d1.png",
+      description: "Отвечает за творческое направление компании. Его гипнотические способности помогают привлекать новых клиентов и повышать узнаваемость бренда."
     }
   ];
 
@@ -57,7 +63,7 @@ const Founders: React.FC = () => {
           <span className="text-space-carrot">основатели</span>
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {founders.map((founder, index) => (
             <FounderCard key={index} {...founder} />
           ))}
