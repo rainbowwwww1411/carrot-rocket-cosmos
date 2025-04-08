@@ -32,6 +32,9 @@ const Navbar: React.FC = () => {
           <a href="#slaves" className="text-white hover:text-space-carrot transition-colors duration-300">
             Рабы
           </a>
+          <a href="#students" className="text-white hover:text-space-carrot transition-colors duration-300">
+            Ученики
+          </a>
           <a href="#victims" className="text-white hover:text-space-carrot transition-colors duration-300">
             Жертвы
           </a>
@@ -70,6 +73,9 @@ const Navbar: React.FC = () => {
             </a>
             <a href="#slaves" className="text-white hover:text-space-carrot transition-colors duration-300" onClick={toggleMenu}>
               Рабы
+            </a>
+            <a href="#students" className="text-white hover:text-space-carrot transition-colors duration-300" onClick={toggleMenu}>
+              Ученики
             </a>
             <a href="#victims" className="text-white hover:text-space-carrot transition-colors duration-300" onClick={toggleMenu}>
               Жертвы

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
@@ -42,11 +41,6 @@ const Victims: React.FC = () => {
       name: "Райан Гослинг",
       image: "/lovable-uploads/df7b1820-09f6-4011-980b-3c07f530ed36.png",
       description: "Стал жертвой экспериментальной морковной технологии. Теперь вечно дрейфует в открытом космосе."
-    },
-    {
-      name: "Ученик SpaceCarrot",
-      image: "/lovable-uploads/1173614d-8aca-4027-870a-ed4f495fda54.png",
-      description: "Молодой стажер, не выдержавший интенсивной подготовки. Теперь его рисунки космических объектов используются для обучения новых кадров."
     }
   ];
 

@@ -6,6 +6,7 @@ import About from '@/components/About';
 import Founders from '@/components/Founders';
 import Slaves from '@/components/Slaves';
 import Victims from '@/components/Victims';
+import Students from '@/components/Students';
 import EmployeeOfMonth from '@/components/EmployeeOfMonth';
 import StockChart from '@/components/StockChart';
 import CTA from '@/components/CTA';
@@ -19,6 +20,7 @@ const Index: React.FC = () => {
       <About />
       <Founders />
       <Slaves />
+      <Students />
       <Victims />
       <EmployeeOfMonth />
       <StockChart />
